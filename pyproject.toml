@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Data-science"
+version = "1.0.0"
+description = """Data science notes."""
+authors = ["Artem Ryzhenkov <RyzhenkovArt@yandex.ru>"]
+repository = "https://github.com/Jaldsky/data-science"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.1.1"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+tensorflow = "^2.18.0"
+
+[build-system]
+requires = ["poetry-core>=1.8.3"]
+build-backend = "poetry.core.masonry.api"
