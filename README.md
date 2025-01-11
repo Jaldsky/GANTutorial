@@ -1,6 +1,16 @@
-# Generative adversarial neural network tutorial
+# Data science notes
 
-# How to use it?
-1. pip install jupyter numpy matplotlib tensorflow keras
-2. jupyter notebook
-3. select the file project
+# How to use
+1. Create virtual environment
+2. Install poetry
+```bash
+pip install poetry
+```
+3. Install dependencies
+```bash
+poetry install
+```
+4. Run jupyter notebook
+```bash
+jupyter notebook
+```
